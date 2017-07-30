@@ -3,11 +3,16 @@ Common Ground Objectives
 NOTE:
 In order to run this script successfully, you will need the following installed on your machine:
 
-Firefox browser version 46
+Firefox browser version 54 ( or latest )
 Ruby verison 2.+
-Ruby Selenium-Webdriver version - 2.53
+Ruby Selenium-Webdriver version - selenium-webdriver (3.4.4) ( latest )
 
-( Long story short Selenium webdriver will not work with newer versions of FF, also the newest version of Selenium-Webdriver causes another type of error.  The above will work :-)
+If you get the following error on OSX:
+
+"not able to find gecko driver"
+, please do the following ( you must have Homebrew installed ):
+
+brew install geckodriver
 
 Acceptance Criteria:
 We need to make sure the site is up and running.
