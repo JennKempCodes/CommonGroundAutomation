@@ -19,6 +19,7 @@ Install / setup CI (JEnkins) - locally
 Research way to run script on remote server (free) (coud 9?)
 write smoke test automation script
 write full test automation script
+Send email notification
 
 ##### new updates to README
 
@@ -50,6 +51,7 @@ Install / Setup CI ( Jenkins ) - locally
 Research way to run script on remote server for free ( cloud 9 )
 Write Smoke Test automation script
 Write Full Test automation script
+Send email notification
 
 
 This is a test of git branching
