@@ -52,3 +52,4 @@ Write Smoke Test automation script
 Write Full Test automation script
 
 
+This is a test of git branching
