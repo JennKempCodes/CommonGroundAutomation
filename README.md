@@ -1,5 +1,14 @@
 Common Ground Objectives
 
+NOTE:
+In order to run this script successfully, you will need the following installed on your machine:
+
+Firefox browser version 46
+Ruby verison 2.+
+Ruby Selenium-Webdriver version - 2.53
+
+( Long story short Selenium webdriver will not work with newer versions of FF, also the newest version of Selenium-Webdriver causes another type of error.  The above will work :-)
+
 Acceptance Criteria:
 We need to make sure the site is up and running.
 We need to make sure that the URL directs are working
