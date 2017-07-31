@@ -1,5 +1,30 @@
 Common Ground Objectives
 
+
+Here is how to add your password to the script without showing it on github:
+
+
+creating the following file locally:
+"login.rb"
+
+inside login.rb paste this code:
+
+
+
+module Login
+
+  def username
+    'EMAIL'
+    end
+
+  def password
+    'PASSWORD'
+  end
+end
+
+Change the above username and password values to your actually email values - the .gitignore will not allow this file to be tracked.  Enjoy running the script!
+
+
 NOTE:
 In order to run this script successfully, you will need the following installed on your machine:
 
