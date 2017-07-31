@@ -1,13 +1,13 @@
 require 'selenium-webdriver'
 require 'gmail'
-require_relative 'Password'
+require_relative 'Login'
 # require 'rspec/expectations'
 # include RSpec::Matchers
 
+include Login
+
 @commonground_initial_url = 'http://commongroundshreveport.com/'
-@commonground_homeurl = 'http://www.commongroundshrevepor.com/'
-@username = 'EMAIL'
-@password = 'PASSWORD'
+@commonground_homeurl = 'http://www.commongroundshreveport.com/'
 
 @driver = Selenium::WebDriver.for :firefox
 @driver.navigate.to @commonground_initial_url
@@ -17,7 +17,7 @@ require_relative 'Password'
 puts 'This is the current URL: ' + @driver.current_url
 
 def send_email(status)
-  @gmail = Gmail.connect(@username, @password)
+  @gmail = Gmail.connect(username, password)
 
   email = @gmail.compose do
     to 'Jenn.Kemp.Codes@gmail.com'
